@@ -9,6 +9,7 @@ public class SerializedSingleton implements Serializable {
 	 */
 	private static final long serialVersionUID = 4849692390981001832L;
 	
+	//make addition field transient 
 	private transient long transValue = 0L;
 
 	private SerializedSingleton() {
