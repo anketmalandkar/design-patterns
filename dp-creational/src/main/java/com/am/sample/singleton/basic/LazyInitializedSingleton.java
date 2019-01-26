@@ -1,4 +1,4 @@
-package com.am.sample.singleton;
+package com.am.sample.singleton.basic;
 
 public class LazyInitializedSingleton {
 

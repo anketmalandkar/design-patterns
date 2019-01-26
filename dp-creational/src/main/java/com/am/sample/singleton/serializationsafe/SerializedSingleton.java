@@ -1,4 +1,4 @@
-package com.am.sample.singleton;
+package com.am.sample.singleton.serializationsafe;
 
 import java.io.Serializable;
 
@@ -8,6 +8,8 @@ public class SerializedSingleton implements Serializable {
 	 * 
 	 */
 	private static final long serialVersionUID = 4849692390981001832L;
+	
+	private transient long transValue = 0L;
 
 	private SerializedSingleton() {
 
