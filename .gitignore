@@ -1,4 +1,4 @@
-
+*.gitignore
 *.prefs
 dp-creational/.classpath
 dp-creational/.project
